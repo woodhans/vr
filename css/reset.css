@@ -1,0 +1,18 @@
+* {appearance:normal;-webkit-appearance: none;-moz-appearance: none;margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;outline: none;font-size-adjust: none;-webkit-text-size-adjust: none;-moz-text-size-adjust: none;-ms-text-size-adjust: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-font-smoothing: antialiased; max-height:10000px;}
+*:focus {outline: none;}
+*,*:after,*:before {-webkit-box-sizing: border-box;	-moz-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0;}
+html,body{height:100%}
+body {margin: 0;padding: 0;color:#333;font-size:12px;line-height:20px;height:100%; min-width:320px;}
+html.zh body,html.zh_cn body{font-family:'黑体',Helvetica,Arial,sans-serif;}
+@-webkit-viewport{width:device-width}
+@-moz-viewport{width:device-width}
+@-ms-viewport{width:auto!important}
+@-o-viewport{width:device-width}
+@viewport{width:device-width}
+a:hover{text-decoration:none;}
+/*********all.css start********/
+header{background-color: #f0f0f0; width: 100%;}
+.loginarea{background-color: #222;}
+.logo{padding: 5px 0; float: left; margin-right: 30px;}
+#hellopanel,#logpanel{display: none;}
+#hellopanel{float: right;color: #fff; font-size: 16px; line-height: 32px;}

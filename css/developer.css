@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/*Download下载页*/
+
+.step_icon .ios_icon,.step_icon .andriod_icon,.step_icon .webIm_icon{ display:block; height:150px; width:150px; margin:50px auto 36px auto; border-radius:75px; cursor:pointer;}
+.step_icon a:hover{ color:#FFF;}
+.step_icon .ios_icon{background:url(../images/ios.png) no-repeat 25px 25px; border: 1px solid #29ABE2;transition:box-shadow 0.2s ease;}
+.step_icon .andriod_icon{background:url(../images/andriod.png) no-repeat 25px 25px;border:1px solid #39B54A;transition:box-shadow 0.2s ease;}
+.step_icon .webIm_icon{background:url(../images/SDK.png) no-repeat 25px 25px;border:1px solid #E0C847;transition:box-shadow 0.2s ease;}
+.step_icon .webIm_icon:hover,.step_icon .ios_icon:hover,.step_icon .andriod_icon:hover{-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.3),0 6px 20px rgba(0,0,0,0.5);-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.3),0 6px 20px rgba(0,0,0,0.5);box-shadow: 0 2px 2px rgba(0,0,0,0.3),0 6px 20px rgba(0,0,0,0.5);transform:translate3d(0px,-2px,0px);}
+.ios_btn,.andriod_btn,.web_btn{display:block; width:300px; line-height:54px; color:#FFF; text-align:center; margin-left:auto; margin-right:auto;}
+.andriod_btn{background-color:#0AB33F}
+.ios_btn{ background-color:#34AFE3;}
+.web_btn{background:#E0D000}
+.ios_btn img,.andriod_btn img,.web_btn img{ vertical-align:middle; margin-bottom:5px;}
+
+.history-date{ margin-bottom:50px;}
+.history-date .historys{ margin-top:70px;}
+.history-date h4{ font-size:20px; margin-bottom:10px; margin-left:30px; padding-left:35px; z-index:99; height:35px; font-weight:normal; line-height:35px;}
+.history-01 .h4-tit01{ background:url(../images/andriod_1.png) #fff no-repeat left center;}
+.history-02 .h4-tit02{ background:url(../images/ios_1.png) #fff no-repeat left center;}
+.history-03 .h4-tit03{ background:url(../images/SDK_1.png) #fff no-repeat left center;}
+.history-date ul li { border-left:1px solid #EBEBEB; padding:25px 0 0 30px;}
+/*.history-date ul li:after{content:" ";display:block;height:0;clear:both;visibility:hidden}*/
+.history-date ul li .h5-tit{ font-weight:normal; font-size:18px; line-height:26px; position:relative;}
+.history-01 ul li .h5-tit{ color:#0AB33F;}
+.history-02 ul li .h5-tit{ color:#34AFE3;}
+.history-03 ul li .h5-tit{ color:#E0D000;}
+.history-date ul li .h5-tit em{ height:10px; width:10px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; position:absolute; left:-36px; top:8px}
+.history-01 ul li .h5-tit em{ background-color:#0AB33F;}
+.history-02 ul li .h5-tit em{ background-color:#34AFE3;}
+.history-03 ul li .h5-tit em{ background-color:#E0D000;}
+
+@media (max-width:767px){
+	.history-date .historys{ width:300px; margin-left:auto; margin-right:auto;}
+	.history-date h4{ margin-left:0;}
+	.history-date ul{ padding-left:5px;}
+}
